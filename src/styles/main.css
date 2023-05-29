@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        to right,
+        #02172e,
+        #1160b9
+    )
+}
+
+nav {
+    display: flex;
+    background-color: #043873;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+nav ul li a:hover{
+    color: #1160b9;
+}
+
+/* Jumbotron */
+.carousel-inner img{
+    height: 500px;
+}
+
+/* content */
+.content{
+    color: whitesmoke;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 18px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+.genangan__container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.genangan__container img{
+    width: 200px;
+}
+.genangan__description{
+    text-align: justify;
+    font-size: 20px;
+}
+.genangan__other-description{
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+.team__profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.team__profile img{
+    height: 200px;
+}
