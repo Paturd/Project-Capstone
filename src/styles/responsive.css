@@ -1,0 +1,29 @@
+  /* Media queries untuk tata letak responsif */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 5px;
+    }
+  }
+  
+  /* REsponsif untuk Our Team */
+  @media(max-width: 991px){
+      .team-section .team-items .item{
+        flex-basis: calc(50% - 30px);
+         max-width: calc(50% - 30px);
+  
+     }
+  }
+  
+  @media(max-width: 767px){
+      .team-section .team-items .item{
+        flex-basis: calc(100%);
+         max-width: calc(100%);
+  
+     }
+  }
