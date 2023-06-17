@@ -1,6 +1,6 @@
 {
     "id": "genangan-lite-1",
-    "start_url": "../templates/homePage.html",
+    "start_url": "../index.html",
     "name": "Genangan",
     "short_name": "Genangan",
     "display": "standalone",
